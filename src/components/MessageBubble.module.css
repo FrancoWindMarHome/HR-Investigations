@@ -1,0 +1,132 @@
+.row {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  margin-bottom: 16px;
+}
+
+.assistantRow {
+  flex-direction: row;
+}
+
+.userRow {
+  flex-direction: row-reverse;
+}
+
+.avatarAssistant {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: var(--navy);
+  color: #fff;
+  font-size: 9px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  border: 1.5px solid var(--lightblue);
+  margin-top: 2px;
+}
+
+.avatarUser {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: var(--blue);
+  color: #fff;
+  font-size: 9px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  border: 1.5px solid rgba(255, 255, 255, 0.2);
+  margin-top: 2px;
+}
+
+.bubble {
+  max-width: 75%;
+  padding: 10px 14px;
+  border-radius: 12px;
+  font-size: 13px;
+  line-height: 1.55;
+}
+
+.assistantBubble {
+  background: #fff;
+  border: 1px solid var(--bdr);
+  border-top-left-radius: 3px;
+  color: var(--text);
+}
+
+.userBubble {
+  background: var(--blue);
+  color: #fff;
+  border-top-right-radius: 3px;
+}
+
+.markdown {
+  font-size: 13px;
+  line-height: 1.6;
+  color: var(--text);
+}
+
+.markdown p {
+  margin-bottom: 8px;
+}
+
+.markdown p:last-child {
+  margin-bottom: 0;
+}
+
+.markdown ul,
+.markdown ol {
+  padding-left: 18px;
+  margin-bottom: 8px;
+}
+
+.markdown li {
+  margin-bottom: 3px;
+}
+
+.markdown strong {
+  font-weight: 700;
+  color: var(--navy);
+}
+
+.markdown em {
+  font-style: italic;
+}
+
+.userText {
+  margin: 0;
+  font-size: 13px;
+  line-height: 1.55;
+}
+
+.ts {
+  font-size: 9px;
+  color: var(--text3);
+  margin-top: 5px;
+  text-align: right;
+}
+
+.userBubble .ts {
+  color: rgba(255, 255, 255, 0.55);
+}
+
+.cursor {
+  display: inline-block;
+  width: 2px;
+  height: 13px;
+  background: var(--navy);
+  margin-left: 2px;
+  vertical-align: text-bottom;
+  animation: blink 0.8s step-end infinite;
+}
+
+@keyframes blink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0; }
+}

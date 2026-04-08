@@ -1,0 +1,46 @@
+body {
+  font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+}
+
+:root {
+  --navy: #21366B;
+  --blue: #1D429B;
+  --orange: #F89B24;
+  --lightblue: #A6C3E6;
+  --grey: #666;
+  --bg: #EDF1F9;
+  --card: #fff;
+  --bdr: #D0DCF0;
+  --text: #1A2545;
+  --text2: #3D5080;
+  --text3: #7A90B8;
+  --inp: #F4F7FC;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  -webkit-font-smoothing: antialiased;
+}
+
+button {
+  font-family: inherit;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
