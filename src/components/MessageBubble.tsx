@@ -20,7 +20,7 @@ export default function MessageBubble({ message, streaming }: MessageBubbleProps
   return (
     <div className={`${styles.row} ${isAssistant ? styles.assistantRow : styles.userRow}`}>
       {isAssistant && (
-        <div className={styles.avatarAssistant} title="Isabel — HR Agent">
+        <div className={styles.avatarAssistant} title="Karla — HR Agent">
           IS
         </div>
       )}

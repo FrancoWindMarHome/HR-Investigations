@@ -33,7 +33,7 @@ function InterviewSession({ caseData }: { caseData: InvestigationCase }) {
               <span className={styles.hdrCategory}> · {caseData.category}</span>
             </div>
             <div className={styles.hdrSub}>
-              {caseData.caseNumber} · {caseData.department} · Isabel — HR Agent
+              {caseData.caseNumber} · {caseData.department} · Karla — HR Agent
             </div>
           </div>
           <div className={`${styles.statusBadge} ${styles[`b_${caseData.status}`]}`}>

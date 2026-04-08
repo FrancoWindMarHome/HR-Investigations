@@ -45,7 +45,7 @@ export default function ChatInput({ onSend, disabled }: ChatInputProps) {
         onChange={handleInput}
         onKeyDown={handleKeyDown}
         disabled={disabled}
-        placeholder={disabled ? 'Isabel is responding…' : 'Type your response… (Enter to send, Shift+Enter for new line)'}
+        placeholder={disabled ? 'Karla is responding…' : 'Type your response… (Enter to send, Shift+Enter for new line)'}
         rows={1}
       />
       <button
