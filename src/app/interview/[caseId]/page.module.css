@@ -1,0 +1,93 @@
+.wrap {
+  display: flex;
+  height: 100vh;
+  background: var(--bg);
+  overflow: hidden;
+}
+
+.main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.hdr {
+  padding: 12px 20px 10px;
+  border-bottom: 1px solid var(--bdr);
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-shrink: 0;
+}
+
+.hdrTitle {
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--text);
+}
+
+.hdrCategory {
+  font-weight: 400;
+  color: var(--text3);
+}
+
+.hdrSub {
+  font-size: 9px;
+  color: var(--text3);
+  margin-top: 1px;
+}
+
+.statusBadge {
+  font-size: 8.5px;
+  padding: 2px 8px;
+  border-radius: 20px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.3px;
+}
+
+.b_pending {
+  background: rgba(248, 155, 36, 0.12);
+  color: #8B5200;
+  border: 1px solid rgba(248, 155, 36, 0.3);
+}
+
+.b_active {
+  background: rgba(29, 66, 155, 0.1);
+  color: var(--blue);
+  border: 1px solid rgba(29, 66, 155, 0.22);
+}
+
+.b_complete {
+  background: rgba(102, 102, 102, 0.1);
+  color: var(--grey);
+  border: 1px solid rgba(102, 102, 102, 0.22);
+}
+
+.chatArea {
+  flex: 1;
+  display: flex;
+  overflow: hidden;
+}
+
+.chatMain {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.loading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: var(--bg);
+}
+
+.loadingText {
+  font-size: 13px;
+  color: var(--text3);
+}
