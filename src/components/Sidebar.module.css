@@ -8,8 +8,15 @@
 }
 
 .sbLogo {
-  padding: 14px 12px 12px;
+  padding: 12px 12px 10px;
   border-bottom: 1px solid rgba(255, 255, 255, 0.09);
+}
+
+.wmLogo {
+  display: block;
+  width: 140px;
+  height: auto;
+  margin-bottom: 10px;
 }
 
 .sbLogoRow {

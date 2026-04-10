@@ -1,6 +1,7 @@
 'use client';
 
 import Link from 'next/link';
+import Image from 'next/image';
 import { usePathname } from 'next/navigation';
 import type { InvestigationCase } from '@/lib/cases-store';
 import styles from './Sidebar.module.css';
@@ -30,11 +31,18 @@ export default function Sidebar({ cases }: SidebarProps) {
     <div className={styles.sb}>
       {/* Logo */}
       <div className={styles.sbLogo}>
+        <Image
+          src="/windmar-logo.svg"
+          alt="WindMar Home"
+          width={140}
+          height={34}
+          className={styles.wmLogo}
+          priority
+        />
         <div className={styles.sbLogoRow}>
           <div className={styles.sbIcon}>⚖</div>
           <div className={styles.sbName}>HR Insight</div>
         </div>
-        <div className={styles.sbSub}>WindMar Energy · v2</div>
       </div>
 
       {/* User */}
