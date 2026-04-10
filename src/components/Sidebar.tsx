@@ -32,10 +32,10 @@ export default function Sidebar({ cases }: SidebarProps) {
       {/* Logo */}
       <div className={styles.sbLogo}>
         <Image
-          src="/windmar-logo.svg"
+          src="/windmar-logo.png"
           alt="WindMar Home"
           width={140}
-          height={34}
+          height={90}
           className={styles.wmLogo}
           priority
         />
